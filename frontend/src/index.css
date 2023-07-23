@@ -1,0 +1,162 @@
+/* google font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,100;1,300;1,400&display=swap');
+
+
+
+  /* layout */
+  :root{
+    --primary: #1aac83;
+    --error: #e7195a;
+  }
+
+  body{
+    background: #f1f1f1;
+    margin: 0;
+    font-family: "poppins";
+  }
+
+  header{
+    background: #fff;
+  }
+
+  header .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+  
+  }
+
+  header a {
+    color: #333;
+    text-decoration: none;
+
+  }
+
+  .pages{
+    max-width: 1400px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  /* post */
+  .post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  .post {
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin between posts */
+    object-fit: contain;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .post-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .post-avatar img {
+    object-fit: cover;
+  }
+  
+  .post__description {
+    margin-top: 10px;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
+  .post-text {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the username */
+  .post h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .post-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* .username {
+    font-weight: bold;
+  } */
+  
+  /* navbar */
+  
+
+  /* workout form */
+
+  form.create {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  form.create h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form.create label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form.create input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form.create button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form.create .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+
+  /* home page */
+
+   
